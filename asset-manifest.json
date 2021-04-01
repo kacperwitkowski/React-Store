@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/proba/static/css/main.7e1239b0.chunk.css",
-    "main.js": "/proba/static/js/main.cf7ecffb.chunk.js",
-    "main.js.map": "/proba/static/js/main.cf7ecffb.chunk.js.map",
-    "runtime-main.js": "/proba/static/js/runtime-main.e0c51e1f.js",
-    "runtime-main.js.map": "/proba/static/js/runtime-main.e0c51e1f.js.map",
-    "static/js/2.4c77ea6a.chunk.js": "/proba/static/js/2.4c77ea6a.chunk.js",
-    "static/js/2.4c77ea6a.chunk.js.map": "/proba/static/js/2.4c77ea6a.chunk.js.map",
-    "index.html": "/proba/index.html",
-    "static/css/main.7e1239b0.chunk.css.map": "/proba/static/css/main.7e1239b0.chunk.css.map",
-    "static/js/2.4c77ea6a.chunk.js.LICENSE.txt": "/proba/static/js/2.4c77ea6a.chunk.js.LICENSE.txt",
-    "static/media/bars-solid.e8db7520.svg": "/proba/static/media/bars-solid.e8db7520.svg",
-    "static/media/Reviews.scss": "/proba/static/media/dance.f06f371e.gif",
-    "static/media/happyworkers.71532024.jpg": "/proba/static/media/happyworkers.71532024.jpg",
-    "static/media/packages.86dd952f.svg": "/proba/static/media/packages.86dd952f.svg",
-    "static/media/packaging.f236be07.svg": "/proba/static/media/packaging.f236be07.svg",
-    "static/media/pin.f4922c86.svg": "/proba/static/media/pin.f4922c86.svg",
-    "static/media/shopping-cart-solid.d146d6c3.svg": "/proba/static/media/shopping-cart-solid.d146d6c3.svg",
-    "static/media/times-solid.ea7c95d7.svg": "/proba/static/media/times-solid.ea7c95d7.svg",
-    "static/media/truck.635510fb.svg": "/proba/static/media/truck.635510fb.svg",
-    "static/media/video.9da90241.mp4": "/proba/static/media/video.9da90241.mp4"
+    "main.css": "/React-Store/static/css/main.7b1840d9.chunk.css",
+    "main.js": "/React-Store/static/js/main.094c187f.chunk.js",
+    "main.js.map": "/React-Store/static/js/main.094c187f.chunk.js.map",
+    "runtime-main.js": "/React-Store/static/js/runtime-main.c6b316b0.js",
+    "runtime-main.js.map": "/React-Store/static/js/runtime-main.c6b316b0.js.map",
+    "static/js/2.4c77ea6a.chunk.js": "/React-Store/static/js/2.4c77ea6a.chunk.js",
+    "static/js/2.4c77ea6a.chunk.js.map": "/React-Store/static/js/2.4c77ea6a.chunk.js.map",
+    "index.html": "/React-Store/index.html",
+    "static/css/main.7b1840d9.chunk.css.map": "/React-Store/static/css/main.7b1840d9.chunk.css.map",
+    "static/js/2.4c77ea6a.chunk.js.LICENSE.txt": "/React-Store/static/js/2.4c77ea6a.chunk.js.LICENSE.txt",
+    "static/media/bars-solid.e8db7520.svg": "/React-Store/static/media/bars-solid.e8db7520.svg",
+    "static/media/Reviews.scss": "/React-Store/static/media/dance.f06f371e.gif",
+    "static/media/happyworkers.71532024.jpg": "/React-Store/static/media/happyworkers.71532024.jpg",
+    "static/media/packages.86dd952f.svg": "/React-Store/static/media/packages.86dd952f.svg",
+    "static/media/packaging.f236be07.svg": "/React-Store/static/media/packaging.f236be07.svg",
+    "static/media/pin.f4922c86.svg": "/React-Store/static/media/pin.f4922c86.svg",
+    "static/media/shopping-cart-solid.d146d6c3.svg": "/React-Store/static/media/shopping-cart-solid.d146d6c3.svg",
+    "static/media/times-solid.ea7c95d7.svg": "/React-Store/static/media/times-solid.ea7c95d7.svg",
+    "static/media/truck.635510fb.svg": "/React-Store/static/media/truck.635510fb.svg",
+    "static/media/video.9da90241.mp4": "/React-Store/static/media/video.9da90241.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.e0c51e1f.js",
+    "static/js/runtime-main.c6b316b0.js",
     "static/js/2.4c77ea6a.chunk.js",
-    "static/css/main.7e1239b0.chunk.css",
-    "static/js/main.cf7ecffb.chunk.js"
+    "static/css/main.7b1840d9.chunk.css",
+    "static/js/main.094c187f.chunk.js"
   ]
 }
