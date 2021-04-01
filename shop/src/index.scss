@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root {
+ --coral: #eb9478;
+--maroon: #8e2807;
+--title: #493b76;
+--lightblue: #c5dbf2;
+  --background: #33837e;
+  --left-side: #5de2a3;
+  --card: #c7ffbc;
+  --card-line: #80ea69;
+  --button-color-3: #26850e;
+  --button-color-2: #379e1f;
+  --button-color-1: #56be3e;
+  --post: #dddde0;
+  --numbers: #838183;
+  --numbers-2: #aaa9ab;
+  --post-line: #757375;
+  --post-line2: #545354;
+  --dollar: #4b953b;
+}
+
+
+.app {
+  width: 100%;
+  margin: 0 auto;
+}
+
+section {
+  padding: 15px 10px;
+}
+

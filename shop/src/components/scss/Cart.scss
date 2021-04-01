@@ -1,0 +1,96 @@
+.cart {
+
+&--details{
+    border: 1px solid #ccc;
+}
+
+&--delete-all-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 15px 0;
+}
+
+&--delete-all-btn button {
+    background-color: red;
+    border: none;
+    outline: none;
+    color: white;
+    width:160px;
+    height: 40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0;
+
+}
+
+ .fa-trash-alt {
+    padding: 0.5rem;
+    border: 1px solid red;
+}
+
+&--amount {
+display: flex;
+justify-content: space-between;
+
+
+
+&-buttons span {
+ color: crimson;
+    padding: 0 20px;
+}
+
+    &-buttons .count {
+    width: 40px;
+    height: 30px;
+    border: 1px solid #555;
+    outline: none;
+    background: transparent;
+    cursor: pointer;
+    }
+
+
+& .delete{
+    color: crimson;
+    cursor: pointer;
+    font-weight: 900;
+}
+
+}
+
+
+
+&--summary-box{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+& h3 {
+    font-size: 23px;
+    padding: 10px 50px;
+    color: crimson;
+    display: flex;
+    align-items: center;
+}
+}
+
+@media (max-width: 600px) {
+
+    &--summary-box h3{
+    padding: 0px 20px;
+}
+}
+
+@media (max-width: 500px) {
+&--summary-box h3 {
+padding: 0 10px;
+font-size: 16px;
+align-self: center;
+}
+}
+}

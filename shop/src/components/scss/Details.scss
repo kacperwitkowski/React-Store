@@ -1,0 +1,139 @@
+.details{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 0 0 50px 0;
+
+}
+.img-container {
+    max-width: 520px;
+    width: 100%;
+    min-width: 280px;
+    height: 470px;
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 25px;
+}
+
+.sizes {
+    width: 100%;
+}
+
+.sizes select {
+    width: 20%;
+    cursor: pointer;
+}
+
+
+
+@media (max-width: 400px) {
+    .details {
+        margin: 10px 0;
+    }
+    
+    .img-container {
+        background-size: contain;
+        height: 390px;
+    }
+
+.cartDiv {
+    display: flex;
+    justify-content: center;
+}
+
+.cart {
+    width: 100%;
+    text-align: center;
+}
+
+.sizes {
+text-align: center;
+}
+
+
+
+.box .row h2 {
+    letter-spacing: normal;
+    font-size: 20px;
+}
+
+.box .row span{
+
+    font-size: 16px;
+}
+}
+.details .img-container:hover {
+    background-size: 140%;
+    cursor: zoom-in;
+    border: 1px solid black;
+}
+
+.details .box{
+    max-width: 500px;
+    min-width: 290px;
+    margin: 25px;
+}
+.box .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.box .row h2{
+    text-transform: uppercase;
+}
+.box .row span{
+    color: crimson;
+    font-size: 20px;
+}
+.box .colors button{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #333;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: #333;
+}
+
+select {
+    width: 150%;
+    text-align: center;
+}
+
+.colors-sizes-wrapper {
+display: flex;
+justify-content: flex-start;
+align-items: center;
+}
+
+.box p{
+    line-height: 1.5;
+    margin: 15px 0;
+}
+.box .cart{
+    background: #333;
+    color: white;
+    text-decoration: none;
+    padding: 10px 25px;
+    display: inline-block;
+}
+.thumb{
+  display: flex;
+  cursor: pointer;
+}
+.thumb img{
+  width: 50px;
+  height: 45px;
+  display: block;
+  object-fit: cover;
+  margin: 20px;
+  overflow: hidden;
+}
+.thumb img:first-child{
+margin: 20px 20px 20px 0;
+}
+
