@@ -266,3 +266,55 @@
     letter-spacing: 2px;
     margin: 15px 0;
 }
+
+.btn {
+  background-color: transparent;
+  border: 2px solid rgb(41, 181, 206);
+  border-radius: 0.6em;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 1.2em 2.8em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  overflow: hidden;
+}
+.btn:hover, .btn:focus {
+  color: #fff;
+  outline: 0;
+  border: none;
+}
+
+.fill {
+  margin: 25px;
+  border-radius: 0;
+  color: rgb(43, 203, 224);
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: color .3s ease-in-out;
+
+&:after {
+  content: '';
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 46%;
+  transform: translateX(-46%);
+  width: 0;
+  height: 100%;
+  background-color: var(--lightblue);
+  z-index: -1;
+  transition: width .3s ease-in-out;
+}
+&:hover {
+  color: #fff;
+}
+&:hover:after {
+  width: 100%;
+}
+}

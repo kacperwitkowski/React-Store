@@ -43,13 +43,13 @@ const Cart = () => {
               backgroundImage: `url(${item.src})`,
             }}
           ></div>
-          <div className="box">
-            <div className="row">
+          <div className="details--box">
+            <div className="details--row">
               <h2>{item.title}</h2>
               <span>{item.price}$</span>
             </div>
 
-            <div className="colors">
+            <div className="details--colors">
               <p>
                 {item.colors.map((color, index) => (
                   <button key={index} style={{ background: color }}></button>
@@ -57,8 +57,8 @@ const Cart = () => {
               </p>
             </div>
             <p>Choose size</p>
-            <div className="sizes">
-              <select className="sizes-select" required>
+            <div className="details--sizes">
+              <select className="details--sizes-select" required>
                 <option value="40">40</option>
                 <option value="41">41</option>
                 <option value="42">42</option>
@@ -87,7 +87,7 @@ const Cart = () => {
                 </button>
               </div>
               <div
-                className="delete"
+                className="details--delete"
                 onClick={() => contextType.deleteProduct(item.id)}
               >
                 <i className="far fa-trash-alt"></i>

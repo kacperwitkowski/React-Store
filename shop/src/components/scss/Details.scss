@@ -17,11 +17,11 @@
     margin: 25px;
 }
 
-.sizes {
+.details--sizes {
     width: 100%;
 }
 
-.sizes select {
+.details--sizes-select {
     width: 20%;
     cursor: pointer;
 }
@@ -48,18 +48,18 @@
     text-align: center;
 }
 
-.sizes {
+.details--sizes {
 text-align: center;
 }
 
 
 
-.box .row h2 {
+.details--row h2 {
     letter-spacing: normal;
     font-size: 20px;
 }
 
-.box .row span{
+.details--row span{
 
     font-size: 16px;
 }
@@ -70,25 +70,25 @@ text-align: center;
     border: 1px solid black;
 }
 
-.details .box{
+.details--box{
     max-width: 500px;
     min-width: 290px;
     margin: 25px;
 }
-.box .row{
+.details--row{
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
 }
-.box .row h2{
+.details--row h2{
     text-transform: uppercase;
 }
-.box .row span{
+.details--row span{
     color: crimson;
     font-size: 20px;
 }
-.box .colors button{
+.details--colors button{
     width: 30px;
     height: 30px;
     border: 1px solid #333;
@@ -99,7 +99,7 @@ text-align: center;
     background-color: #333;
 }
 
-select {
+.details--select {
     width: 150%;
     text-align: center;
 }
@@ -110,11 +110,11 @@ justify-content: flex-start;
 align-items: center;
 }
 
-.box p{
+.details--box p{
     line-height: 1.5;
     margin: 15px 0;
 }
-.box .cart{
+.details--box .cart{
     background: #333;
     color: white;
     text-decoration: none;
@@ -132,8 +132,12 @@ align-items: center;
   object-fit: cover;
   margin: 20px;
   overflow: hidden;
+  box-shadow: 0 0 5px rgb(134, 133, 133);
 }
 .thumb img:first-child{
 margin: 20px 20px 20px 0;
+}
+.thumb img:last-child{
+margin: 20px 0px 20px 20px;
 }
 

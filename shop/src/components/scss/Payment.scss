@@ -14,6 +14,9 @@
  border: 2px solid black;
     min-width: 50%;
     padding: 2% 5%;
+         display: flex;
+     justify-content: center;
+     flex-direction: column;
 }
 
 &--none {
@@ -163,40 +166,35 @@ button:focus {
     &--address,
     &--cc-info {
      text-align: center;
-        flex-direction: column;
+        flex-direction: row;
         width: 100%;
-        justify-content: space-between;
+        justify-content: center;
 }
 
 
- 
 
     &--info,
-    &--address,
-    &--cc-info div {
+    &--address div {
             align-items: center;
             flex-direction: column;
             width: 100%;
             display: flex;
         }
 
-         &--address div {
-   width: 100%;
-  }
 
 
   &--info div {
-        width: 100%;
+        width: 90%;
     }
-
     &--street,
     &--cc-num {
         text-align: center;
     }
 
     input {
-        margin: 5px 0;
+        margin: 5px;
         min-height: 30px;
+        width: 90%;
     }
 }
 
@@ -244,6 +242,7 @@ text-align: center;
         display: flex;
         justify-content: space-around;
         width: 100%;
+        align-items: center;
 
     & .packages {
         animation: pop 1.3s infinite;

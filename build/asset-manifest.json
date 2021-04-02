@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/ReactShop/static/css/main.b22eb7ba.chunk.css",
+    "main.js": "/ReactShop/static/js/main.3ca28df7.chunk.js",
+    "main.js.map": "/ReactShop/static/js/main.3ca28df7.chunk.js.map",
+    "runtime-main.js": "/ReactShop/static/js/runtime-main.f578aab8.js",
+    "runtime-main.js.map": "/ReactShop/static/js/runtime-main.f578aab8.js.map",
+    "static/js/2.4c77ea6a.chunk.js": "/ReactShop/static/js/2.4c77ea6a.chunk.js",
+    "static/js/2.4c77ea6a.chunk.js.map": "/ReactShop/static/js/2.4c77ea6a.chunk.js.map",
+    "index.html": "/ReactShop/index.html",
+    "static/css/main.b22eb7ba.chunk.css.map": "/ReactShop/static/css/main.b22eb7ba.chunk.css.map",
+    "static/js/2.4c77ea6a.chunk.js.LICENSE.txt": "/ReactShop/static/js/2.4c77ea6a.chunk.js.LICENSE.txt",
+    "static/media/bars-solid.e8db7520.svg": "/ReactShop/static/media/bars-solid.e8db7520.svg",
+    "static/media/Reviews.scss": "/ReactShop/static/media/dance.f06f371e.gif",
+    "static/media/happyworkers.71532024.jpg": "/ReactShop/static/media/happyworkers.71532024.jpg",
+    "static/media/packages.86dd952f.svg": "/ReactShop/static/media/packages.86dd952f.svg",
+    "static/media/packaging.f236be07.svg": "/ReactShop/static/media/packaging.f236be07.svg",
+    "static/media/pin.f4922c86.svg": "/ReactShop/static/media/pin.f4922c86.svg",
+    "static/media/shopping-cart-solid.d146d6c3.svg": "/ReactShop/static/media/shopping-cart-solid.d146d6c3.svg",
+    "static/media/times-solid.ea7c95d7.svg": "/ReactShop/static/media/times-solid.ea7c95d7.svg",
+    "static/media/truck.635510fb.svg": "/ReactShop/static/media/truck.635510fb.svg",
+    "static/media/video.9da90241.mp4": "/ReactShop/static/media/video.9da90241.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f578aab8.js",
+    "static/js/2.4c77ea6a.chunk.js",
+    "static/css/main.b22eb7ba.chunk.css",
+    "static/js/main.3ca28df7.chunk.js"
+  ]
+}

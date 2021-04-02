@@ -12,6 +12,7 @@ Shoes app created with React.js
 * [Font Awesome](https://fontawesome.com/)
 
 ## Demo
+https://kacperwitkowski.github.io/React-Store/#/
 ![Screenshot](./media/happyclient.png)
 
 ## Contact

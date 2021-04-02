@@ -49,12 +49,12 @@ const Products = (props) => {
             }
           />
 
-          <div className="box">
-            <div className="row">
+          <div className="details--box">
+            <div className="details--row">
               <h2>{item.title}</h2>
               <span>{item.price}$</span>
             </div>
-            <div className="colors">
+            <div className="details--colors">
               <p>
                 {item.colors.map((color, index) => (
                   <button key={index} style={{ background: color }}></button>
