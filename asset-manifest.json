@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/React-Store/static/css/main.7b1840d9.chunk.css",
-    "main.js": "/React-Store/static/js/main.094c187f.chunk.js",
-    "main.js.map": "/React-Store/static/js/main.094c187f.chunk.js.map",
+    "main.css": "/React-Store/static/css/main.438653ee.chunk.css",
+    "main.js": "/React-Store/static/js/main.fd24b524.chunk.js",
+    "main.js.map": "/React-Store/static/js/main.fd24b524.chunk.js.map",
     "runtime-main.js": "/React-Store/static/js/runtime-main.c6b316b0.js",
     "runtime-main.js.map": "/React-Store/static/js/runtime-main.c6b316b0.js.map",
     "static/js/2.4c77ea6a.chunk.js": "/React-Store/static/js/2.4c77ea6a.chunk.js",
     "static/js/2.4c77ea6a.chunk.js.map": "/React-Store/static/js/2.4c77ea6a.chunk.js.map",
     "index.html": "/React-Store/index.html",
-    "static/css/main.7b1840d9.chunk.css.map": "/React-Store/static/css/main.7b1840d9.chunk.css.map",
+    "static/css/main.438653ee.chunk.css.map": "/React-Store/static/css/main.438653ee.chunk.css.map",
     "static/js/2.4c77ea6a.chunk.js.LICENSE.txt": "/React-Store/static/js/2.4c77ea6a.chunk.js.LICENSE.txt",
     "static/media/bars-solid.e8db7520.svg": "/React-Store/static/media/bars-solid.e8db7520.svg",
     "static/media/Reviews.scss": "/React-Store/static/media/dance.f06f371e.gif",
     "static/media/happyworkers.71532024.jpg": "/React-Store/static/media/happyworkers.71532024.jpg",
     "static/media/packages.86dd952f.svg": "/React-Store/static/media/packages.86dd952f.svg",
     "static/media/packaging.f236be07.svg": "/React-Store/static/media/packaging.f236be07.svg",
-    "static/media/pin.f4922c86.svg": "/React-Store/static/media/pin.f4922c86.svg",
+    "static/media/pin.a4f6099f.svg": "/React-Store/static/media/pin.a4f6099f.svg",
     "static/media/shopping-cart-solid.d146d6c3.svg": "/React-Store/static/media/shopping-cart-solid.d146d6c3.svg",
     "static/media/times-solid.ea7c95d7.svg": "/React-Store/static/media/times-solid.ea7c95d7.svg",
     "static/media/truck.635510fb.svg": "/React-Store/static/media/truck.635510fb.svg",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6b316b0.js",
     "static/js/2.4c77ea6a.chunk.js",
-    "static/css/main.7b1840d9.chunk.css",
-    "static/js/main.094c187f.chunk.js"
+    "static/css/main.438653ee.chunk.css",
+    "static/js/main.fd24b524.chunk.js"
   ]
 }
