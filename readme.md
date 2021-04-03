@@ -1,5 +1,5 @@
 # React Shoes Store
-Shoes app created with React.js
+Shoe application created with React.js
 
 ## Technologies 
 * HTML
@@ -13,7 +13,8 @@ Shoes app created with React.js
 
 ## Demo
 https://kacperwitkowski.github.io/React-Store/#/
-![Screenshot](./media/happyclient.png)
+![happyclient](https://user-images.githubusercontent.com/64027201/113486863-19562700-94b5-11eb-90c9-1b13c0b3ddc5.png)
+
 
 ## Contact
 Created by [@KacperWitkowski](mailto:witkowskik46@gmail.com) - feel free to contact me!
