@@ -74,8 +74,26 @@ font-family: cursive;
   &--text {
     width: 100%;
   }
-}
+ &--text p {
+    font-size: 23px;
+    }
 
+}
+@media(max-width: 830px) and (orientation: landscape) {
+  &--img {
+display: none;
+  }
+    & p::first-letter {
+      float: none;
+  font-size: 20px;
+     padding: 2px;
+  margin-right: 5px;
+  }
+    &--text p {
+    font-size: 18px;
+    text-align: center;
+    }
+}
 
 @media(max-width: 720px) {
   &--text {
@@ -83,12 +101,13 @@ font-family: cursive;
   
 
   & p::first-letter {
-   float: none;
-   font-size: 22px;
+   font-size: 28px;
      padding: 2px;
   margin-right: 5px;
   }
 }
+
+
 &--img img {
  height: 30%;
 }

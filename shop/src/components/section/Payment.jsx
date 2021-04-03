@@ -1,11 +1,11 @@
-import { useState,useContext } from "react";
+import { useState, useContext } from "react";
 import { DataContext } from "../Context";
 import "../scss/Payment.scss";
 import Truck from "../svg/truck.svg";
 import Packaging from "../svg/packaging.svg";
 import Packages from "../svg/packages.svg";
 import { Link } from "react-router-dom";
-import NumberFormat from 'react-number-format';
+import NumberFormat from "react-number-format";
 
 const PersonalInfo = () => {
   const contextType = useContext(DataContext);
@@ -23,7 +23,7 @@ const PersonalInfo = () => {
     e.preventDefault();
   };
 
-const [disabled,setDisabled] = useState(true)
+  const [disabled, setDisabled] = useState(true);
 
   const [state, setState] = useState({
     value: "",
@@ -32,15 +32,15 @@ const [disabled,setDisabled] = useState(true)
     setState({ value: e.target.value });
   };
   const handleCartReset = () => {
-      contextType.cart = [];
-      contextType.setCart([...contextType.cart]);
+    contextType.cart = [];
+    contextType.setCart([...contextType.cart]);
   };
 
-  const handleInputLength = e => {
-if(e.target.value.length >= 3) {
-  setDisabled(false)
-}
-  }
+  const handleInputLength = (e) => {
+    if (e.target.value.length >= 3) {
+      setDisabled(false);
+    }
+  };
 
   return (
     <div className="personal">
@@ -105,8 +105,10 @@ if(e.target.value.length >= 3) {
             </span>
           </h1>
           <div className="personal--cc-num">
-            <label>Credit Card No.</label>
-            <NumberFormat format="#### #### #### ####" required />
+            <div>
+              <label>Credit Card No.</label>
+              <NumberFormat format="#### #### #### ####" required />
+            </div>
           </div>
           <div className="personal--cc-info">
             <div>

@@ -129,15 +129,15 @@
         
 }
 
-  & button:enabled {
-        background-color: #4a3b76;
-  }
- &:hover {
-animation-name: btn-hov;
-animation-duration: 550ms;
-animation-fill-mode: forwards;
+& button:enabled {
+    background-color: #4a3b76;
 }
- }   
+&:hover {
+    animation-name: btn-hov;
+    animation-duration: 550ms;
+    animation-fill-mode: forwards;
+}
+}   
 input:focus,
 button:focus {
     outline: none;
@@ -147,8 +147,13 @@ button:focus {
 
 
 @media (max-width: 736px) {
-
-
+    
+    input {
+        margin: 10px;
+        min-height: 30px;
+        width: 90%;
+    }
+    
 
     &--btn {
         align-items: center;
@@ -162,39 +167,20 @@ button:focus {
         text-align: center;
     }
 
-    &--info,
-    &--address,
-    &--cc-info {
-     text-align: center;
-        flex-direction: row;
-        width: 100%;
-        justify-content: center;
-}
+    &--info div {   width: 100%;
+    text-align: center;}
+    &--address div {width: 100%;
+    text-align: center;}
+    &--cc-info div {width: 80%;
+    text-align: center;}
 
 
-
-    &--info,
-    &--address div {
-            align-items: center;
-            flex-direction: column;
-            width: 100%;
-            display: flex;
+    &--cc-num div {
+            text-align: center
         }
 
-
-
-  &--info div {
-        width: 90%;
-    }
-    &--street,
-    &--cc-num {
-        text-align: center;
-    }
-
-    input {
-        margin: 5px;
-        min-height: 30px;
-        width: 90%;
+           &--cc-info input {
+        width: 80%;
     }
 }
 
