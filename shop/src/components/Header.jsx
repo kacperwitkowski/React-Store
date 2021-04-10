@@ -12,7 +12,7 @@ const Header = () => {
 
 
 const contextSpan = useContext(DataContext)
-
+const {cart} = contextSpan;
   
   const menuToggle = () => setIsShowed(!isShowed);
 
@@ -55,7 +55,7 @@ if(isShowed) {
         </ul>
         <div className="nav-cart">
           <Link to="/cart">
-          <span>{contextSpan.cart.length}</span>
+          <span>{cart.length}</span>
             <img src={ShoppingCart} alt="" width="40" />
           </Link>
         </div>

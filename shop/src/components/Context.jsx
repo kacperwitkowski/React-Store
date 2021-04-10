@@ -4,7 +4,7 @@ export const DataContext = createContext();
 
 export const DataProvider = ({ children }) => {
   const [products] = useState({
-    products: [
+    items: [
       {
         id: "1",
         title: "Mike Infinity Run",
@@ -209,7 +209,7 @@ export const DataProvider = ({ children }) => {
       return prod.id !== id;
     });
     if (check) {
-      const data = products.products.filter((prod) => {
+      const data = products.items.filter((prod) => {
         return prod.id === id;
       });
       setCart([...cart, ...data]);
@@ -260,7 +260,6 @@ export const DataProvider = ({ children }) => {
 
   const deleteFeedback = () => {
     setList([]);
-    console.log(list);
     setDisableBtn(false)
   };
 

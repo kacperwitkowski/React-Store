@@ -9,7 +9,7 @@ import NumberFormat from "react-number-format";
 
 const PersonalInfo = () => {
   const contextType = useContext(DataContext);
-
+  let { cart, setCart } = contextType;
   const MAX_VAL = 1400000000000000;
 
   const withValueCap = (inputObj) => {
@@ -32,8 +32,8 @@ const PersonalInfo = () => {
     setState({ value: e.target.value });
   };
   const handleCartReset = () => {
-    contextType.cart = [];
-    contextType.setCart([...contextType.cart]);
+    cart = [];
+    setCart([...cart]);
   };
 
   const handleInputLength = (e) => {
@@ -71,7 +71,11 @@ const PersonalInfo = () => {
             </div>
             <div>
               <label htmlFor="phone">Phone</label>
-              <input type="text" name="phone" required />
+              <input
+              type="tel"
+                name="phone"
+                required
+              />
             </div>
           </div>
 
@@ -95,7 +99,7 @@ const PersonalInfo = () => {
             </div>
             <div className="personal--address-zip">
               <label htmlFor="zip">Zip</label>
-              <input type="text" name="zip" required />
+              <input name="zip" type="text"/>
             </div>
           </div>
           <h1>

@@ -98,6 +98,10 @@ text-align: center;
 & h2 {
 text-align: center;
 }
+
+& span {
+  white-space: nowrap;
+}
 }
 
 @media (max-width: 1024px) {

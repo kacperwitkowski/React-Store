@@ -5,18 +5,18 @@ import "../scss/Products.scss";
 
 const Products = () => {
   const contextType = useContext(DataContext);
-
+const { btnActive, products, addCart } = contextType;
   
   const [text] = useState("Product has been added to cart");
   
 
   return (
     <div>
-      <div className={contextType.btnActive ? "popup-on" : "popup-off"}>
+      <div className={btnActive ? "popup-on" : "popup-off"}>
         {text}
       </div>
       <div className="product">
-        {contextType.products.products.map((product) => (
+        {products.items.map((product) => (
           <div className="product--card" key={product.id * 1231}>
             <Link to={`/product/${product.id}`}>
               <img src={product.src} alt="product" />
@@ -31,7 +31,7 @@ const Products = () => {
               </div>
               <p>{product.category}</p>
 
-              <button className="btn--dark" onClick={() => contextType.addCart(product.id)}>
+              <button className="btn--dark" onClick={() => addCart(product.id)}>
                 Add to cart
               </button>
             </div>

@@ -7,7 +7,7 @@ import Pin from '../svg/pin.svg';
 const Feedback = () => {
 
    const contextType = useContext(DataContext);
-
+const { setList, list, setDisableBtn, disableBtn } = contextType;
 
   const [author, setAuthor] = useState({
     value: "",
@@ -17,16 +17,14 @@ const Feedback = () => {
   });
   const readInput = (e) => {
     setState({ description: e.target.value });
-    console.log(state.description);
   };
   const readAuthor = (e) => {
     setAuthor({ value: e.target.value });
-    console.log(author.value);
   };
 
   const addFeedback = () => {
-    contextType.setList([
-      ...contextType.list,
+    setList([
+      ...list,
       {
         description: state.description,
         author: author.value,
@@ -35,8 +33,7 @@ const Feedback = () => {
     ]);
     setAuthor({value: ""});
     setState({description: ""});
-    contextType.setDisableBtn(true)
-    console.log(contextType.list);
+    setDisableBtn(true)
   };
 
 
@@ -89,7 +86,7 @@ const Feedback = () => {
         />
         <button
           className="btn--dark"
-          disabled={contextType.disableBtn}
+          disabled={disableBtn}
           onClick={addFeedback}
         >
           Add

@@ -6,6 +6,7 @@ import "../scss/Details.scss";
 
 const Products = (props) => {
   const contextType = useContext(DataContext);
+  const { products, addCart } = contextType;
   const imgArea = useRef();
 
   const [index, setIndex] = useState(0);
@@ -14,12 +15,11 @@ const Products = (props) => {
 
   const getProduct = () => {
     if (props.match.params.id) {
-      const res = contextType.products.products;
+      const res = products.items;
       const data = res.filter((prod) => {
         return prod.id === props.match.params.id;
       });
       prod.push(...data);
-      // setProd({ prod: data });
     }
   };
 
@@ -69,7 +69,7 @@ const Products = (props) => {
                 to="/cart"
                 type="sumbit"
                 className="cart"
-                onClick={() => contextType.addCart(item.id)}
+                onClick={() => addCart(item.id)}
               >
                 Add to cart
               </Link>
