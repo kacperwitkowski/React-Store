@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/React-Store/static/css/main.6d8dfcae.chunk.css",
-    "main.js": "/React-Store/static/js/main.4ec4a0ba.chunk.js",
-    "main.js.map": "/React-Store/static/js/main.4ec4a0ba.chunk.js.map",
+    "main.css": "/React-Store/static/css/main.04cadef0.chunk.css",
+    "main.js": "/React-Store/static/js/main.09bdc5f7.chunk.js",
+    "main.js.map": "/React-Store/static/js/main.09bdc5f7.chunk.js.map",
     "runtime-main.js": "/React-Store/static/js/runtime-main.c6b316b0.js",
     "runtime-main.js.map": "/React-Store/static/js/runtime-main.c6b316b0.js.map",
     "static/js/2.4c77ea6a.chunk.js": "/React-Store/static/js/2.4c77ea6a.chunk.js",
     "static/js/2.4c77ea6a.chunk.js.map": "/React-Store/static/js/2.4c77ea6a.chunk.js.map",
     "index.html": "/React-Store/index.html",
-    "static/css/main.6d8dfcae.chunk.css.map": "/React-Store/static/css/main.6d8dfcae.chunk.css.map",
+    "static/css/main.04cadef0.chunk.css.map": "/React-Store/static/css/main.04cadef0.chunk.css.map",
     "static/js/2.4c77ea6a.chunk.js.LICENSE.txt": "/React-Store/static/js/2.4c77ea6a.chunk.js.LICENSE.txt",
     "static/media/bars-solid.e8db7520.svg": "/React-Store/static/media/bars-solid.e8db7520.svg",
     "static/media/Reviews.scss": "/React-Store/static/media/dance.f06f371e.gif",
@@ -24,7 +24,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6b316b0.js",
     "static/js/2.4c77ea6a.chunk.js",
-    "static/css/main.6d8dfcae.chunk.css",
-    "static/js/main.4ec4a0ba.chunk.js"
+    "static/css/main.04cadef0.chunk.css",
+    "static/js/main.09bdc5f7.chunk.js"
   ]
 }
