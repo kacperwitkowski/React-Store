@@ -1,5 +1,5 @@
 .home {
-padding: 15px 10px; 
+padding: 10px; 
 
 
 &--video-container {
@@ -36,11 +36,6 @@ padding: 15px 10px;
 }
 
 
-
-
-
-
-
 @media (max-width: 1024px) {
 &--video {
  object-fit: cover;
@@ -55,11 +50,11 @@ padding: 15px 10px;
 
 @media (max-width: 830px) {
 &--details h3 {
- font-size: 1.5rem;
-margin-bottom: 2.3rem;
+ font-size: 1.3rem;
+margin-bottom: 2.5rem;
 }
 &--details h2 {
- font-size: 1.9rem;
+ font-size: 1.7rem;
 }
 .btn {
   padding: 0.7rem 1.2rem;
