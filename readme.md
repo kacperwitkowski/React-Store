@@ -1,4 +1,4 @@
-# React Shoes Store (Mike Store)
+# :shoe: Mike Store
 
 Mike Store is an app that simulates the process of buying shoes. On Mike's users can get detailed info about the shoes, browse photos of different products, add sneakers to the cart, leave rating about the site, send the message to the store and even get through shipping and paying proccess!
 
